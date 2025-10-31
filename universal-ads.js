@@ -538,25 +538,25 @@
     const adUnits = [
       {
         id: 'ua-placement-1',
-        path: '/23272458704/Nasrev.com/Display',
+        path: '/23272458704/Adbros360/Display',
         sizes: [[300, 250], [336, 280], [320, 100], [300, 100], [320, 50]],
         refresh: true
       },
       {
         id: 'ua-placement-2',
-        path: '/23272458704/Nasrev.com/Display',
+        path: '/23272458704/Adbros360/Display',
         sizes: [[300, 250], [336, 280], [300, 600], [320, 100], [300, 100], [320, 50]],
         refresh: false
       },
       {
         id: 'ua-placement-3',
-        path: '/23272458704/Nasrev.com/Display',
+        path: '/23272458704/Adbros360/Display',
         sizes: [[300, 250], [336, 280], [300, 600], [320, 100], [300, 100], [320, 50]],
         refresh: true
       },
       {
         id: 'ua-placement-4',
-        path: '/23272458704/Nasrev.com/Display',
+        path: '/23272458704/Adbros360/Display',
         sizes: [[300, 250], [336, 280], [300, 600], [320, 100], [300, 100], [320, 50]],
         refresh: false
       }
@@ -643,7 +643,7 @@
     const anchorDiv = document.getElementById('ua-anchor');
     if (anchorDiv) {
       const anchorSlot = googletag.defineOutOfPageSlot(
-        '/23272458704/Nasrev.com/Anchor',
+        '/23272458704/Adbros360/Anchor',
         googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR
       );
       
@@ -656,7 +656,7 @@
     
     // Define interstitial ad (always)
     const interstitialSlot = googletag.defineOutOfPageSlot(
-      '/23272458704/Nasrev.com/Interstitial',
+      '/23272458704/Adbros360/Interstitial',
       googletag.enums.OutOfPageFormat.INTERSTITIAL
     );
     
